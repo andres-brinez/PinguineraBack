@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "pinguinera_module_auth.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "pinguinera_module_auth.Models.DataTransferObjects.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "pinguinera_module_auth.Controllers.RegisterController",
+    "Method": "Register",
+    "RelativePath": "Register/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "pinguinera_module_auth.Models.DataTransferObjects.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "pinguinera_module_auth.Controllers.RefreshTokenController",
+    "Method": "Refresh",
+    "RelativePath": "token/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenDTO",
+        "Type": "pinguinera_module_auth.Models.DataTransferObjects.RefreshTokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
